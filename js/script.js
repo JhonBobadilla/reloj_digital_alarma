@@ -39,3 +39,7 @@ if (alarmTime) {
   }, difference);
  }
 }
+
+window.onload = function() {
+  getTime();
+}
