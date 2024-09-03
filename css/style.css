@@ -3,7 +3,7 @@
    background-size: cover;
    font-family: Arial, sans-serif; 
    width: 600px;
-   height: 600px;
+   height: 300px;
    margin: 100px;
    border-radius: 60px;
    border-style: solid; 
@@ -11,6 +11,9 @@
    padding: 90px;
    text-align: center;
    border-width: 20px;
+   display: flex;
+   align-items: center;
+   
 }
 
 .clock {
@@ -36,4 +39,23 @@
     padding: 20px;
     border-radius: 10px;
     font-size: larger;
+}
+
+.contenido-header .texto {
+    margin: 90px;
+    background: #1eff00;
+    width: 805px;
+    height: 20vh;
+    font-size: 70px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #146b08;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #146b08;
+    border-width: 10px;
+    
+
 }
