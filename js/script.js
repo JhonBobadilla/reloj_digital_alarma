@@ -1,6 +1,4 @@
-alert("¡ despierta... ya es hora !");
-
-/*function getTime() {
+function getTime() {
  let date = new Date();
  let hours = date.getHours();
  let minutes = date.getMinutes();
