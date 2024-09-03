@@ -1,3 +1,4 @@
+const alarmSound = new Audio('alarmsound.mp3');
 function getTime() {
  let date = new Date();
  let hours = date.getHours();
@@ -35,7 +36,8 @@ if (alarmTime) {
   }
 
   setTimeout(function() {
-    alert("¡ despierta... ya es hora !");
+    alarmSound.play();
+    /*alert("¡ despierta... ya es hora !");*/
   }, difference);
  }
 }
